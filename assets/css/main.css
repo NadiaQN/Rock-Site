@@ -1,0 +1,92 @@
+body{
+	margin: 0 auto;
+	font-family: Roboto;
+}
+/*estilos barra navegacion*/
+.nav-bar{
+	background-color: #343A40;
+	color: #FFFFFF;
+	width: 100%;
+}
+.nav-option{
+	text-align: center;
+}
+h4{
+	margin-top: 1%;
+	margin-left: 15%;
+}
+ul{
+	list-style: none;
+	display: inline-flex;
+}
+li{
+	margin: 5%;
+}
+a{
+	text-decoration: none;
+	color: #A4A4A4;
+}
+a:hover{
+	color: #FFFFFF;
+}
+/*estilos seccion title*/
+.title{
+	background-image: url(../img/header.jpg);
+	color: white;
+	text-align: center;
+	width: 100%;
+	filter: grayscale(60%);
+}
+.title h1{
+	font-size: 6em;
+	font-weight: lighter;
+	margin-top: 35%;
+}
+.title h2{
+	font-size: 3em;
+	font-weight: lighter;
+	margin-bottom: 10%;
+}
+/*estilos seccion about*/
+.about{
+  text-align: center;
+  margin-top: 5%;
+}
+.about img{
+  border-radius: 50%;
+  width: 20em;
+}
+.about h3{
+  font-weight: lighter;
+  font-size: 2.5em;
+  margin-top: 15%;
+}
+.about p{
+  font-size: 0.8em;
+}
+/*estilos primera subseccion*/
+.first-section h3, p{
+  text-align: left;
+  margin-left: 25%;
+  width: 55%;
+}
+.first-section h3{
+  margin-top: 10%;
+}
+/* estilos segunda subseccion*/
+.second-section p{
+  margin-left: 30%;
+}
+/*estilos tercera subseccion*/
+.third-section img{
+  margin-bottom: 5%;
+}
+/*estilos footer*/
+footer{
+  background-color: #343A40;
+  color: white;
+  width: 100%;
+}
+footer p{
+  margin-left: 40%;
+}
